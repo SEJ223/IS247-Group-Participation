@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IS247 Group Participation.iml" filepath="$PROJECT_DIR$/IS247 Group Participation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IS247 Group Participation.iml" filepath="$PROJECT_DIR$/.idea/IS247 Group Participation.iml" />
     </modules>
   </component>
 </project>

@@ -1,3 +1,5 @@
+package Task2_SimpleCalculator;
+
 public class Main {
     public static void main(String[] args) {
         // Values
