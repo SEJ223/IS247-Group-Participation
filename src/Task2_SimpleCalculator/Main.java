@@ -9,6 +9,7 @@ public class Main {
         int product = Multiplication.multiply(4, 4);
         int squared = Square.square(2);
         int difference = Subtract.subtract(10, 5);
+        int quotient = Division.divide(10, 2);
 
 
         // Printouts
@@ -16,6 +17,7 @@ public class Main {
         System.out.println("Product: " + product);
         System.out.println("Squared: " + squared);
         System.out.println("Difference: " + difference);
+        System.out.println("Division: " + quotient);
 
     }
 }
