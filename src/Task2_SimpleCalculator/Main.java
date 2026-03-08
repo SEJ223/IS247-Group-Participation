@@ -9,13 +9,13 @@ public class Main {
         int product = Multiplication.multiply(4, 4);
         int squared = Square.square(2);
         int difference = Subtract.subtract(10, 5);
-        int division = Division.divide(4,2);
+
 
         // Printouts
         System.out.println("Addition: " + sum);
         System.out.println("Product: " + product);
         System.out.println("Squared: " + squared);
         System.out.println("Difference: " + difference);
-        System.out.println("Division: " + division);
+
     }
 }
