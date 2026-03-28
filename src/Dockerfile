@@ -1,9 +1,5 @@
-FROM eclipse-temurin:25
-
+FROM openjdk:23
 WORKDIR /app
-
-COPY HelloWorld.java .
-
-RUN javac HelloWorld.java
-
+COPY src/ /app/
+RUN javac *.java
 CMD ["java", "HelloWorld"]
