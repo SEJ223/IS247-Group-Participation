@@ -1,5 +1,5 @@
-FROM openjdk:23
+FROM amazoncorretto:latest
 WORKDIR /app
-COPY src/ /app/
-RUN javac *.java
+COPY . /app/
+RUN javac HelloWorld.java
 CMD ["java", "HelloWorld"]
